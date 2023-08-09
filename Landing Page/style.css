@@ -1,0 +1,123 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: blanchedalmond;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    padding-right: 25px;
+    height: 8vh;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 7px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:brown;
+}
+li a{
+    color:rgb(71, 26, 26);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.top-image {
+    height: 250px; /* Set the height of the top div */
+    
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    
+    color: aliceblue;
+    margin-top:0px;
+    
+}
+.section{
+    background-image: url('div-1 background image.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+}
+#para{
+    margin-top: 40px;
+    max-width: 60%;
+    text-align: center;
+    margin:0 auto;
+
+}
+h1{
+    text-align: center;
+}
+#button{
+    background-color: brown;
+    border: none;
+    color: aliceblue;
+    align-content:center;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+p{
+    width: 50%;
+    margin-top: 20px;
+}
+.discription{
+    color: aliceblue;
+}
+.container{
+    
+    display: flex;
+    height: 250px;
+    
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    
+}
+.image{
+    margin-top: 40px;
+    background-size: cover;
+    padding-right: 50px;
+    margin-right: 30px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+}
+
+
+.service div {
+    margin: 30px; 
+}
+
+
+.service img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.service h3 {
+    text-align: center; 
+}
+#photo1{
+    margin-left: 20px;
+}
